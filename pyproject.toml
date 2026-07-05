@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphkit"
+version = "0.1.0"
+description = "A small, dependency-light toolkit for authenticating to the Microsoft Graph API (app-only / client credentials flow) and making simple REST calls against it."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Fred's Scripts" }
+]
+dependencies = [
+    "msal>=1.24",
+    "requests>=2.31",
+]
+
+[project.urls]
+Homepage = "https://github.com/FredScriptsPT/graphkit"
+"Buy me a coffee" = "https://ko-fi.com/fredscripts"
+
+[tool.setuptools.packages.find]
+include = ["graphkit*"]

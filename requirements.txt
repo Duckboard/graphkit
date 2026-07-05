@@ -1,0 +1,9 @@
+msal>=1.24
+requests>=2.31
+
+# Optional, only needed if you want to load a .env file automatically
+# in your own scripts (see .env.example):
+# python-dotenv>=1.0
+
+# Optional, only needed to run the tests:
+# pytest>=7.0
