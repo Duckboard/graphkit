@@ -9,7 +9,7 @@ This is useful for background scripts, scheduled jobs, or shared-mailbox
 automations that need to act on Outlook mail, Planner tasks, SharePoint,
 or any other Graph resource without a human logging in each time.
 
-If this saves you time, consider [buying me a coffee](https://ko-fi.com/fredscripts).
+If this saves you time, consider [buying me a coffee](https://ko-fi.com/duckboard).
 
 ## Features
 
@@ -136,5 +136,5 @@ or interactive flows instead, which this package doesn't cover.
 ## License
 
 MIT -- see [LICENSE](LICENSE). Do whatever you like with this; a
-credit or a [Ko-fi tip](https://ko-fi.com/fredscripts) is
+credit or a [Ko-fi tip](https://ko-fi.com/duckboard) is
 appreciated but never required.
